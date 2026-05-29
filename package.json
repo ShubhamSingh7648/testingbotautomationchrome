@@ -1,0 +1,21 @@
+{
+  "name": "chitchat-bot",
+  "version": "3.0.0",
+  "description": "ChitChat.gg automation bot with Telegram relay",
+  "main": "bot.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "gitignore": "^0.7.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "puppeteer": "^22.10.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
